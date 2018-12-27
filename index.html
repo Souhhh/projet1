@@ -1,14 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+
 </head>
+
 <body>
-    
+
+    <!-- NAVBAR -->
+    <!-- CREER 2 COLONNES POUR LA NAVBAR -->
+    <div class="sectionimgbg">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-grey mb-5 mx-5 fixed-top">
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mx-5">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </nav>
+        <div class="container text-center text-light prembloc">
+            <h1 class="display-1 pt-5 text">GRAYSCALE</h1>
+            <p class="text-white-50">A free, responsive, one page Bootstrap theme <br> created by Start Bootstrap.</p>
+            <button type="button" class="btn btn-primary js-scroll-trigger p-3 mt-2">GET STARTED</button>
+        </div>
+    </div>
+
+
+    <!-- SECTION 2 -->
+    <div class="container-fluid cont2 text-center pt-5">
+        <div class="row">
+            <div class="col-10 offset-1">
+                <h2 class="text-light mt-5 mb-4">Built with Bootstrap 4</h2>
+                <p class="colorp mb-5">Grayscale Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                    quisquam illum eum culpa similique? Necessitatibus <a href="https://blackrockdigital.github.io/startbootstrap-grayscale/">
+                        the preview page</a> dignissimos impedit, debitis quaerat error temporibus odio sequi aliquid
+                    accusamus aut harum expedita!</p>
+                <img class="img-fluid mt-5" src="./images/ipad.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- SECTION BLANCHE -->
+    <div class="container mt-5 mb-4">
+        <div class="row align-items-center no-gutters">
+            <div class="col-8 backimg3">
+            </div>
+            <div class="col-4">
+                <div class="shoreline">
+                    <h4 class="vertical">Shoreline</h4>
+                    <p class="colorp">Grayscale is open source and MIT licenses. This means you can use it for any
+                        project
+                        - even
+                        commercial projects! Download it, cusromize it, and publih your website</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SECTION DES 4 BLOCS -->
+        <div class="container mt-5">
+            <div class="row colorblocks align-items-center">
+                <div class="col-6 backimg"></div>
+                <div class="col-6 pl-5">
+                    <div class="misty">
+                        <h4 class="text-light mt-5">Misty</h4>
+                        <p class="text-secondary">An example of where you can put an image of a project, or somethinf
+                            else,
+                            along with a description.</p>
+                        <hr class="bordurebleue">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mb-5 colorblocks align-items-center">
+                <div class="col-6 pl-5 text-right">
+                    <div class="mountains">
+                        <h4 class="text-light mt-5">Mountains</h4>
+                        <p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                            dolorum
+                            accusantium vero eius. Sequi tenetur reprehenderit molestiae.</p>
+
+                        <hr class="bordurebleue2">
+                    </div>
+                </div>
+                <div class="col-6 bg-gray backimg1"></div>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION AVANT FOOTER -->
+    <div class="rahma container-fluid text-center text-light">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-8 text-center">
+                <i class="far fa-paper-plane pt-5 pb-3"></i>
+                <h4 class="pb-4">Subscribe to receive updates!</h4>
+                <div class="form-group">
+                    <form class="form-inline justify-content-center">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email address">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-5 cont2">
+        <div class="row justify-content-center">
+            <div class="col-3 bg-white text-dark mx-3 mt-5 pt-4 bordure borderbb">
+                <div class="card-body text-center">
+                        <i class="fas fa-map-marked-alt"></i>
+                    <p>ADDRESS</p>
+                    <hr class="my-4 bg-success">
+                    <p class="small text-black-50">4923 Market Street, Orlando FL</p>
+                </div>
+            </div>
+
+            <div class="col-3 bg-white text-dark mx-3 mt-5 pt-4  bordure borderbb">
+                <div class="card-body text-center">
+                        <i class="fas fa-envelope"></i>
+                    <p>EMAIL</p>
+                    <hr class="my-4 bg-success">
+                    <p class="small text-black-50">hello@yourdmain.com</p>
+                </div>
+            </div>
+
+
+            <div class="col-3 bg-white text-dark mx-3 mt-5 pt-4  bordure borderbb">
+                <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt"></i>
+                    <p>PHONE</p>
+                    <hr class="my-4 bg-success">
+                    <p class="small text-black-50">+1 (555) 902-8832</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ENCORE ROGNER LES LOGOS -->
+        <div class="row w-25 mx-auto py-5 justify-content-around px-5">
+            <div class="col-4">
+                <a class="" href=""><i class="fab fa-facebook coloricone"></i></a>
+            </div>
+            <div class="col-4">
+                <a href=""><i class="fab fa-github coloricone"></i></a>
+            </div>
+            <div class="col-4">
+                <a href=""><i class="fab fa-twitter coloricone"></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <p class="colorp text-center">Copyright © Your Website 2018</p>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
